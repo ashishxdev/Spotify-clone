@@ -2,7 +2,7 @@
 
 A front-end clone of the Spotify web player, built using pure HTML, CSS, and JavaScript. This project dynamically loads and plays music from local folders, mimicking the core user experience of Spotify's interface.
 
-![Spotify Clone Screenshot](image_ef0114.png)
+![Spotify Clone Screenshot](cover.png)
 
 ---
 
@@ -29,7 +29,7 @@ A front-end clone of the Spotify web player, built using pure HTML, CSS, and Jav
 ## 📂 Project Structure
 
 The project is organized into a clear and maintainable folder structure:
-spotify-clone/
+```spotify-clone/
 ├── css/
 │   ├── style.css       # Main styles
 │   └── utility.css     # Utility classes
@@ -45,6 +45,7 @@ spotify-clone/
 │       ├── ...
 ├── index.html          # The main HTML file
 └── README.md
+```
 ---
 
 ## 🚀 How to Run Locally
@@ -53,7 +54,7 @@ Because this project uses the `fetch` API to load local files, you need to run i
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-username/spotify-clone.git](https://github.com/your-username/spotify-clone.git)
+    git clone [https://github.com/ashishxdev/spotify-clone.git]
     ```
 
 2.  **Navigate to the project directory:**
