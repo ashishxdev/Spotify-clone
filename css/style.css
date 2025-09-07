@@ -120,7 +120,7 @@ body {
     align-items: center; 
     justify-content: center;
     position: absolute;
-    top: 160px;
+    bottom: 88px;
     right: 15px;
     opacity: var(--a);
     transition: all 1s ease-out;
@@ -165,6 +165,9 @@ body {
     /* background-color: rgb(89, 163, 16); */
     background-color: #dad5d5;
     /* width: 75vw; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
     width: 70%;
     padding: 12px;
     margin-bottom: 10px;
@@ -226,7 +229,7 @@ body {
     border-radius: 10px;
     position: absolute;
     margin: 6px;
-    bottom: 0;
+    bottom: 8px;
     cursor: pointer;
 }
 .circle{
@@ -272,12 +275,15 @@ body {
 @media (max-width: 1200px) {
     .left{
         position: absolute;
-        left: -120%;
+        left: -130%;
         transition: all 0.3s;
         z-index: 1;
         width: 380px;
         background-color: black;
         padding: 10;
+        height: 100vh;
+        position: fixed;
+        top: 0;
     }
     .left .close{
         position: absolute;
@@ -312,7 +318,9 @@ body {
     }
     .cardcontainer{
         justify-content: center;
-        max-height: 55vh;
+        max-height: unset;
+        overflow-y: unset;
+        margin-bottom: 35vh;
     }
     .card{
         width: 45vw;
@@ -323,9 +331,30 @@ body {
     .songinfo, .songtime{
         width: auto;
     }
+    .header{
+    padding-top: 20px;
+    }
 }
 @media (max-width: 500px) {
     .card{
-        width: auto;
+        width: 100%;
+    }
+    .header >*{
+        padding: 2px;
+    }
+    .buttons >*{
+        margin: 0 6px;
+    }
+    .spotify-playlist h1{
+    padding: 4px;
+    }
+    .library{
+        height: 85vh;
+    }
+    .left{
+        width: 100vw;
+    }
+    .footer{
+        bottom: 50px;
     }
 }

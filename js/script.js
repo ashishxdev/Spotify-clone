@@ -19,7 +19,7 @@ function secondsToMinutesSeconds(seconds) {
 
 async function getSongs(folder) {
     currFolder = folder;
-    let a = await fetch(`http://127.0.0.1:3000/${folder}/`) //Change localhost accordingly
+    let a = await fetch(`http://127.0.0.1:3002/${folder}/`) //Change localhost accordingly
     let response = await a.text();
     // console.log(response);
 
@@ -72,7 +72,7 @@ const playmusic = (track, pause = false) => {
 
 }
 async function displayAlbums(){
-    let a = await fetch(`http://127.0.0.1:3000/songs/`) //Change localhost accordingly
+    let a = await fetch(`http://127.0.0.1:3002/songs/`) //Change localhost accordingly
     let response = await a.text();
     let div = document.createElement("div");
     div.innerHTML = response;
@@ -180,6 +180,9 @@ next.addEventListener("click", () => {
 document.querySelector(".range").getElementsByTagName("input")[0].addEventListener("change", (e) => {
     // console.log("Setting volume to", e.target.value, "/ 100")
     currentsong.volume = parseInt(e.target.value) / 100
+    if(currentsong.volume > 0){
+        document.querySelector(".volume>img").src = document.querySelector(".volume>img").src.replace("img/mute.svg", "img/volume.svg");
+    }
 })
 
 // Add event listerner to mute volume
