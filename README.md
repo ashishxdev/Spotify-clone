@@ -70,7 +70,6 @@ Because this project uses the `fetch` API to load local files, you need to run i
     * In `js/script.js`, the `fetch` calls are hardcoded with a specific address (e.g., `http://127.0.0.1:3000/`).
     * You may need to update this URL to match the address provided by your local server (e.g., `http://127.0.0.1:5500/`).
 
-
     ```javascript
     // In js/script.js
     
