@@ -87,3 +87,4 @@ Because this project uses the `fetch` API to load local files, you need to run i
     ```
 
 5.  **Open your browser** and navigate to the local server address to see the app in action!
+---
