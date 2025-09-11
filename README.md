@@ -20,9 +20,9 @@ A front-end clone of the Spotify web player, built using pure HTML, CSS, and Jav
 
 ## 🛠️ Tech Stack
 
-* **HTML5**: For the basic structure and content of the web page.
-* **CSS3**: For styling the user interface, including Flexbox for layout and custom properties for theming.
-* **Vanilla JavaScript**: To handle all the logic, including fetching songs, audio playback, and DOM manipulation.
+* **HTML**: For the basic structure and content of the web page.
+* **CSS**: For styling the user interface, including Flexbox for layout and custom properties for theming.
+* **JavaScript**: To handle all the logic, including fetching songs, audio playback, and DOM manipulation.
 
 ---
 
