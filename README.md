@@ -1,8 +1,8 @@
-# Spotify Clone 🎵
+# Musix 🎵
 
-A front-end clone of the Spotify web player, built using pure HTML, CSS, and JavaScript. This project dynamically loads and plays music from local folders, mimicking the core user experience of Spotify's interface.
+A front-end Music web player, built using pure HTML, CSS, and JavaScript. This project dynamically loads and plays music from local folders, mimicking the core user experience of modern music streaming interface.
 
-![Spotify Clone Screenshot](cover.png)
+![Screenshot](cover.png)
 
 ---
 
