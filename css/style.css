@@ -77,10 +77,10 @@ body {
 .header > *{
     padding: 20px;
 }
-.spotify-playlist{
+.music-playlist{
     padding: 16px;
 }
-.spotify-playlist h1{
+.music-playlist h1{
     padding: 10px;
 }
 .cardcontainer{
@@ -345,7 +345,7 @@ body {
     .buttons >*{
         margin: 0 6px;
     }
-    .spotify-playlist h1{
+    .music-playlist h1{
     padding: 4px;
     }
     .library{
